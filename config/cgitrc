@@ -1,0 +1,19 @@
+#
+# cgit config
+# see cgitrc(5) for details
+
+css=/cgit-css/cgit.css
+logo=/cgit-css/cgit.png
+
+# if you do not want that webcrawler (like google) index your site
+robots=noindex, nofollow
+
+# if cgit messes up links, use a virtual-root. For example has cgit.example.or$
+virtual-root=/cgit/
+
+# This is an example to show a Git repository
+#repo.url=camera_acquisition
+#repo.path=/srv/git/camera_acquisition.git
+#repo.desc=A camera acquisition program for GNU/Linux
+
+source-filter=/usr/lib/cgit/filters/syntax-highlighting.py
