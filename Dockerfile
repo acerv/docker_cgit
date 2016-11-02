@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER Andrea Cervesato <sawk.ta@gmail.com>
+MAINTAINER Andrea Cervesato <sawk.ita@gmail.com>
 
 RUN apt-get update
 
