@@ -1,5 +1,7 @@
 # Install
 
+[![Build Status](https://travis-ci.org/acerv/docker_cgit.svg?branch=master)](https://travis-ci.org/acerv/docker_cgit)
+
 Build the container:
 
     docker build -t cgit .
