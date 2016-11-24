@@ -1,0 +1,9 @@
+services:
+  - docker
+
+install:
+  - docker build -t cgit .
+  - docker run -d -p 80:80 cgit 
+
+script:
+  - docker ps | grep -q cgit
